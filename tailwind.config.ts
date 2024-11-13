@@ -11,7 +11,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        white: {
+          100: "#F5F5F5",
+          200: "#DBDBDB"
+        },
       },
+      fontFamily:{
+        montserrat: ["var(--font-montserrat)"]
+      }
     },
   },
   plugins: [],
